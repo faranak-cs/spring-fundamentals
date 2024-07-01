@@ -18,3 +18,6 @@ mvn clean compile
 ```
 mvn clean install
 ``` 
+## Component Diagram
+![component-diagram](https://github.com/faranak-cs/spring-fundamentals/assets/73027299/e6cb872c-f215-4b8b-ad1a-7242478d9c97)
+
