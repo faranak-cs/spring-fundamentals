@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.rest.controllers;
 
+import com.example.demo.beans.di.impl.Duck;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

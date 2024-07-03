@@ -1,4 +1,4 @@
-package com.example.demo.beans.ioc;
+package com.example.demo.beans;
 
 import com.example.demo.beans.di.Vehicle;
 import com.example.demo.beans.di.impl.Car;

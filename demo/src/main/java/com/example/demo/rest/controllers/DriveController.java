@@ -17,7 +17,8 @@ public class DriveController {
     @GetMapping("/drive")
     public String drive(){
         System.out.println((vehicle.drive()));
-        return vehicle.toString();
-    }
+        //return vehicle.toString();
+        return vehicle.drive();
 
+    }
 }
