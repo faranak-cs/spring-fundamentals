@@ -21,3 +21,11 @@ mvn clean install
 ## Component Diagram
 ![component-diagram](https://github.com/faranak-cs/spring-fundamentals/assets/73027299/e6cb872c-f215-4b8b-ad1a-7242478d9c97)
 
+## Version
+| Library      | Version |
+| -----------      | ----------- |
+| IntelliJ IDEA CE | 2024.1.4    |
+| Java             | 17.0.11-tem |
+| Maven            | 3.9.8  |
+| Spring Boot      | 3.3.1  |
+| Spring Framework | 6.1.10 |
