@@ -33,11 +33,11 @@ sdk default java version
 ```
 mvn clean compile
 ```
-2. Compile, test and package the project:
+2. Compile, test (all) and package the project:
 ```
 mvn clean install
 ```
-3. Compile, test, package and skip ITs:
+3. Compile, test (unit tests), package and skip ITs:
 ```
  mvn clean install -DskipITs
 ```
@@ -45,10 +45,14 @@ mvn clean install
 ```
  mvn failsafe:integration-test
 ```
+> It will not fail the build if ITs are failed
+
 5. Verify the results using Failsafe plugin:
 ```
 mvn failsafe:verify
 ```
+> It will fail the build if ITs are failed in the reports
+
 6. Generate report for code coverage using JaCoCo plugin:
 ```
 mvn jacoco:report
