@@ -49,6 +49,28 @@ mvn jacoco:report
 mvn clean verify
 ```
 
+## JUnit
+- 4
+```
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+```
+- 5
+```
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.11.3</version>
+    <scope>test</scope>
+</dependency>
+```
+
 
 ## Component Diagram
 ![component-diagram](https://github.com/faranak-cs/spring-fundamentals/assets/73027299/e6cb872c-f215-4b8b-ad1a-7242478d9c97)
