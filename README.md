@@ -1,6 +1,7 @@
 # Java with Maven & Spring Boot
 I am learning Java with Maven and Spring Boot
-## Setup
+
+## SDK commands
 1. Install SDKMAN
 ```
 curl -s "https://get.sdkman.io" | bash
@@ -18,8 +19,16 @@ sdk install java version
 ```
 sdk use java version
 ```
+5. See current version:
+```
+sdk current java
+```
+6. Set default version:
+```
+sdk default java version
+```
 
-## [Maven Commands](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+## Maven commands
 1. Compile the code:
 ```
 mvn clean compile
@@ -83,3 +92,6 @@ mvn clean verify
 | Maven            | 3.9.8  |
 | Spring Boot      | 3.3.1  |
 | Spring Framework | 6.1.10 |
+
+## Useful links
+- https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
