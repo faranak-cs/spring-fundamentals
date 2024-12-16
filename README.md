@@ -61,6 +61,10 @@ mvn jacoco:report
 ```
 mvn clean verify
 ```
+8. Run unit tests:
+```
+mvn clean test install -B -U -e -Dmaven.repo.local=path -DskipITs
+```
 
 ## JUnit
 - 4
