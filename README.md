@@ -1,67 +1,77 @@
 # Java with Maven & Spring Boot
-I am learning Java with Maven and Spring Boot
+Introduction to Java with Maven and Spring Boot
 
 ## SDK commands
-1. Install SDKMAN
+- Install SDKMAN
 ```
 curl -s "https://get.sdkman.io" | bash
 ```
 
-2. Use the following command to see the list of Java versions
+- Use the following command to see the list of Java versions
 ```
 sdk list java
 ```
-3. Use the following command to install Java
+
+- Use the following command to install Java
 ```
 sdk install java version
 ```
-4. Use the following command to select the Java version for the project:
+
+- Use the following command to select the Java version for the project:
 ```
 sdk use java version
 ```
-5. See current version:
+
+- See current version:
 ```
 sdk current java
 ```
-6. Set default version:
+
+- Set default version:
 ```
 sdk default java version
 ```
 
 ## Maven commands
-1. Compile the code:
+- Compile the code:
 ```
 mvn clean compile
 ```
-2. Compile, test (all) and package the project:
+
+- Compile, test (all) and package the project:
 ```
 mvn clean install
 ```
-3. Compile, test (unit tests), package and skip ITs:
+
+- Compile, test (unit tests), package and skip ITs:
 ```
  mvn clean install -DskipITs
 ```
-4. Run the ITs using Failsafe plugin:
+
+- Run the ITs using Failsafe plugin:
+> It will not fail the build if ITs are failed
 ```
  mvn failsafe:integration-test
 ```
-> It will not fail the build if ITs are failed
 
-5. Verify the results using Failsafe plugin:
+- Verify the results using Failsafe plugin:
+> It will fail the build if ITs are failed in the reports
 ```
 mvn failsafe:verify
 ```
-> It will fail the build if ITs are failed in the reports
 
-6. Generate report for code coverage using JaCoCo plugin:
+
+- Generate report for code coverage using JaCoCo plugin:
 ```
 mvn jacoco:report
 ```
-7. Build and verify the results:
+
+- Build and verify the results:
 ```
 mvn clean verify
 ```
-8. Run unit tests:
+
+- Run unit tests:
 ```
 mvn clean test install -B -U -e -Dmaven.repo.local=path -DskipITs
 ```
@@ -90,7 +100,8 @@ mvn clean test install -B -U -e -Dmaven.repo.local=path -DskipITs
 
 
 ## Component Diagram
-![component-diagram](https://github.com/faranak-cs/spring-fundamentals/assets/73027299/e6cb872c-f215-4b8b-ad1a-7242478d9c97)
+![dependency_injection](https://github.com/user-attachments/assets/39a22df7-9da1-4906-b305-68b240795feb)
+
 
 ## Version
 | Library      | Version |
